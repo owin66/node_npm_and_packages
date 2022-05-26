@@ -14,6 +14,7 @@ const server = http.createServer((req, res) => {
 
     let basePath = '';
 
+
     switch (req.url) {
         case '/':
             basePath = createPath('index');
